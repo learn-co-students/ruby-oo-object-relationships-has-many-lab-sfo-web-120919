@@ -1,5 +1,7 @@
 require "spec_helper"
 
+require_relative "../lib/artist.rb"
+
 describe "Artist" do
 
   let!(:adele) { Artist.new("Adele") }
